@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap');
+
+*{
+  font-family: 'Noto Serif TC', serif;
+}
+.toTop-arrow {
+	width: 3rem;
+	height: 3rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 25px;
+	height: 6px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.42rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.42rem;
+}
+.toTop-arrow:focus {
+  outline: none;
+}
+.navbar-nav{
+  margin-left:50px;
+}
+.container{
+  padding-top:110px;
+}
+section#s1{
+  background-color: #e38546;
+  padding-bottom:30px;
+}
+section#s2{
+  background-color: #46bee3;
+}
+section#s3{
+  background-color: #f5d5f1;
+}
+section#s4{
+  background-color: #a3f0b0;
+  padding-bottom:200px;
+}
+body{
+  border-bottom:solid 20px;
+}
